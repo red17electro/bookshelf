@@ -20,38 +20,51 @@ const App = () => {
     alert('login form submitted with data: ' + username + ' ' + password)
   }
 
+  const handleSubmitRegiserForm = ({username, password}) => {
+    console.log(username, password)
+    alert('register form submitted with data: ' + username + ' ' + password)
+  }
+
   return (
     <>
-      <Logo></Logo>
+      <Logo width={80} height={80}></Logo>
       <CustomDialog isOpen={openModal === 'login'} setOpenModal={setOpenModal}>
         <LoginForm onSubmit={handleSubmitLoginForm} buttonText="Login" />
       </CustomDialog>
       <CustomDialog
         isOpen={openModal === 'register'}
         setOpenModal={setOpenModal}
-        caption="Register"
-      ></CustomDialog>
-      <button role="button" onClick={handleLogin}>
-        Login
-      </button>
-      <button role="button" onClick={handleRegister}>
-        Register
-      </button>
+      >
+        <LoginForm
+          onSubmit={handleSubmitRegiserForm}
+          buttonText="Registration"
+        />
+      </CustomDialog>
+      <div>
+        <button role="button" onClick={handleLogin}>
+          Login
+        </button>
+      </div>
+      <div>
+        <button role="button" onClick={handleRegister}>
+          Register
+        </button>
+      </div>
     </>
   )
 }
 
-const CustomDialog = ({isOpen, setOpenModal, children}) => {
+const CustomDialog = ({isOpen, setOpenModal, children, caption}) => {
   const close = () => {
     setOpenModal('none')
   }
   return (
-    <Dialog isOpen={isOpen} onDismiss={close}>
+    <Dialog aria-label="login-form" isOpen={isOpen} onDismiss={close}>
       <button className="close-button" onClick={close}>
         <VisuallyHidden>Close</VisuallyHidden>
         <span aria-hidden>×</span>
       </button>
-      {children}
+      {children ? children : <p>{caption}</p>}
     </Dialog>
   )
 }
@@ -60,16 +73,18 @@ const LoginForm = ({onSubmit, buttonText}) => {
   const [username, setUsername] = React.useState('')
   const [password, setPassword] = React.useState('')
   return (
-    <div>
+    <form>
       <p>Login form</p>
       <label htmlFor="username">Username</label>
       <input
         value={username}
+        id="username"
         onChange={e => setUsername(e.target.value)}
         type="text"
       />
       <label htmlFor="username">Password</label>
       <input
+        id="password"
         value={password}
         onChange={e => setPassword(e.target.value)}
         type="password"
@@ -84,7 +99,7 @@ const LoginForm = ({onSubmit, buttonText}) => {
       >
         {buttonText}
       </button>
-    </div>
+    </form>
   )
 }
 
