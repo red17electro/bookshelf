@@ -14,17 +14,19 @@ function DiscoverBooksScreen() {
   const [status, setStatus] = React.useState('idle')
   const [query, setQuery] = React.useState('')
   const [data, setData] = React.useState(null)
-  let queried = false
+  const [queried, setQueried] = React.useState(false)
   useEffect(() => {
-    if (query && !queried) {
-      setStatus('loading')
-      client(`books?query=${encodeURIComponent(query)}`)
-        .then(setData)
-        .then(() => setStatus('success'))
-        .catch(() => setStatus('error'))
-      queried = true
+    if (!queried) {
+      return
     }
-  }, [query])
+
+    setStatus('loading')
+    client(`books?query=${encodeURIComponent(query)}`)
+      .then(setData)
+      .then(() => setStatus('success'))
+      .catch(() => setStatus('error'))
+    setQueried(true)
+  }, [query, queried])
 
   const isLoading = status === 'loading'
   const isSuccess = status === 'success'
@@ -32,7 +34,7 @@ function DiscoverBooksScreen() {
   function handleSearchSubmit(event) {
     event.preventDefault()
     setQuery(event.target.elements.search.value)
-    queried = true
+    setQueried(true)
     setStatus('loading')
   }
 

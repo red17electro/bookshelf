@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="upd: exercise 2, styled components;">
+    <list default="true" id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="upd: exercise 1, fetching data;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/discover.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/discover.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/discover.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/discover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/api-client.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api-client.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/api-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api-client.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658417630306</updated>
       <workItem from="1658417631447" duration="10168000" />
-      <workItem from="1658501870751" duration="24355000" />
+      <workItem from="1658501870751" duration="24814000" />
     </task>
     <task id="LOCAL-00001" summary="upd: exercise 1;">
       <created>1658497287507</created>
@@ -89,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658827342721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="upd: exercise 1, fetching data;">
+      <created>1658839864102</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658839864102</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +118,7 @@
     <MESSAGE value="upd: exercise 1;" />
     <MESSAGE value="upd: exercise 2, initial;" />
     <MESSAGE value="upd: exercise 2, styled components;" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: exercise 2, styled components;" />
+    <MESSAGE value="upd: exercise 1, fetching data;" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: exercise 1, fetching data;" />
   </component>
 </project>
