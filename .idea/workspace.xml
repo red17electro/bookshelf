@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="upd: exercise 3;">
+      <change beforePath="$PROJECT_DIR$/INSTRUCTIONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/INSTRUCTIONS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.exercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="exercises/03-data-fetching" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CG8bGhvNLiAWtx8mXXj7j6dG5L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/red17electro/WebstormProjects/bookshelf/node_modules/prettier",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="" />
+      <created>1658417630306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658417630306</updated>
+      <workItem from="1658417631447" duration="10168000" />
+      <workItem from="1658501870751" duration="32661000" />
+    </task>
+    <task id="LOCAL-00001" summary="upd: exercise 1;">
+      <created>1658497287507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658497287507</updated>
+    </task>
+    <task id="LOCAL-00002" summary="upd: exercise 1;">
+      <created>1658501776082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658501776082</updated>
+    </task>
+    <task id="LOCAL-00003" summary="upd: exercise 2, initial;">
+      <created>1658767391582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658767391582</updated>
+    </task>
+    <task id="LOCAL-00004" summary="upd: exercise 2, styled components;">
+      <created>1658786566732</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658786566732</updated>
+    </task>
+    <task id="LOCAL-00005" summary="upd: exercise 2, styled components;">
+      <created>1658827342721</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658827342721</updated>
+    </task>
+    <task id="LOCAL-00006" summary="upd: exercise 1, fetching data;">
+      <created>1658839864102</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658839864102</updated>
+    </task>
+    <task id="LOCAL-00007" summary="upd: exercise 1, additional;">
+      <created>1658840303881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658840303881</updated>
+    </task>
+    <task id="LOCAL-00008" summary="upd: exercise 1, additional;">
+      <created>1658840926989</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658840926989</updated>
+    </task>
+    <task id="LOCAL-00009" summary="upd: exercise 3;">
+      <created>1658842969535</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658842969535</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upd: exercise 1;" />
+    <MESSAGE value="upd: exercise 2, initial;" />
+    <MESSAGE value="upd: exercise 2, styled components;" />
+    <MESSAGE value="upd: exercise 1, fetching data;" />
+    <MESSAGE value="upd: exercise 1, additional;" />
+    <MESSAGE value="upd: exercise 3;" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: exercise 3;" />
+  </component>
+</project>
