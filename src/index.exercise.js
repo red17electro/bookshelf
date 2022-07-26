@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap-reboot.css'
 import '@reach/dialog/styles.css'
 import * as React from 'react'
 import {createRoot} from 'react-dom/client'
-import {Button, Input, FormGroup} from './components/lib'
+import {Button, Input, FormGroup, Spinner} from './components/lib'
 import {Modal, ModalContents, ModalOpenButton} from './components/modal'
 import {Logo} from './components/logo'
 
@@ -83,7 +83,12 @@ function App() {
           <ModalContents aria-label="Login form" title="Login">
             <LoginForm
               onSubmit={login}
-              submitButton={<Button variant="primary">Login</Button>}
+              submitButton={
+                <div>
+                  <Button variant="primary">Login</Button>
+                  <Spinner />
+                </div>
+              }
             />
           </ModalContents>
         </Modal>
@@ -94,7 +99,12 @@ function App() {
           <ModalContents aria-label="Registration form" title="Register">
             <LoginForm
               onSubmit={register}
-              submitButton={<Button variant="secondary">Register</Button>}
+              submitButton={
+                <div>
+                  <Button variant="secondary">Register</Button>
+                  <Spinner />
+                </div>
+              }
             />
           </ModalContents>
         </Modal>

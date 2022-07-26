@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="upd: exercise 2, initial;">
+    <list default="true" id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="upd: exercise 2, styled components;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/lib.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/lib.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/lib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.exercise.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/red17electro/WebstormProjects/bookshelf/node_modules/prettier",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -49,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658417630306</updated>
       <workItem from="1658417631447" duration="10168000" />
-      <workItem from="1658501870751" duration="11840000" />
+      <workItem from="1658501870751" duration="16986000" />
     </task>
     <task id="LOCAL-00001" summary="upd: exercise 1;">
       <created>1658497287507</created>
@@ -72,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658767391582</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="upd: exercise 2, styled components;">
+      <created>1658786566732</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658786566732</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upd: exercise 1;" />
     <MESSAGE value="upd: exercise 2, initial;" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: exercise 2, initial;" />
+    <MESSAGE value="upd: exercise 2, styled components;" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: exercise 2, styled components;" />
   </component>
 </project>
