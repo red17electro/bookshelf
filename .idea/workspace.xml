@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="upd: exercise 3;">
-      <change beforePath="$PROJECT_DIR$/INSTRUCTIONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/INSTRUCTIONS.md" afterDir="false" />
+    <list default="true" id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="upd: wire up auth to the back-end;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/api-client.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api-client.exercise.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +34,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "js.linters.configure.manually.selectedeslint": "true",
     "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "/Users/red17electro/WebstormProjects/bookshelf/node_modules/eslint",
+    "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/red17electro/WebstormProjects/bookshelf/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -51,7 +55,10 @@
       <option name="presentableId" value="Default" />
       <updated>1658417630306</updated>
       <workItem from="1658417631447" duration="10168000" />
-      <workItem from="1658501870751" duration="32661000" />
+      <workItem from="1658501870751" duration="34079000" />
+      <workItem from="1658908415210" duration="977000" />
+      <workItem from="1658909411758" duration="393000" />
+      <workItem from="1658909811148" duration="1162000" />
     </task>
     <task id="LOCAL-00001" summary="upd: exercise 1;">
       <created>1658497287507</created>
@@ -116,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658842969535</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="upd: wire up auth to the back-end;">
+      <created>1658849392238</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658849392238</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +157,11 @@
     <MESSAGE value="upd: exercise 1, fetching data;" />
     <MESSAGE value="upd: exercise 1, additional;" />
     <MESSAGE value="upd: exercise 3;" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: exercise 3;" />
+    <MESSAGE value="upd: wire up auth to the back-end;" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: wire up auth to the back-end;" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
