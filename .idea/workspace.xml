@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9713a1b-a7af-448a-8496-5fc24c9bd984" name="Changes" comment="upd: custom headers;">
-      <change beforePath="$PROJECT_DIR$/src/authenticated-app.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/authenticated-app.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/authenticated-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/authenticated-app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/book.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/book.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/book.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/not-found.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/not-found.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/not-found.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/not-found.js" afterDir="false" />
+    <list default="true" id="c9713a1b-a7af-448a-8496-5fc24c9bd984" name="Changes" comment="upd: exercise;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.exercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658931368390</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="upd: exercise;">
+      <created>1658936781495</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658936781495</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +181,8 @@
     <MESSAGE value="upd: wire up auth to the back-end;" />
     <MESSAGE value="upd: add token support;" />
     <MESSAGE value="upd: useAsync;" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: useAsync;" />
+    <MESSAGE value="upd: exercise;" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: exercise;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
