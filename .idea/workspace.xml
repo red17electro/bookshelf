@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="upd: add token support;">
+    <list default="true" id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="upd: useAsync;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.exercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/api-client.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api-client.exercise.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <workItem from="1658501870751" duration="34079000" />
       <workItem from="1658908415210" duration="977000" />
       <workItem from="1658909411758" duration="393000" />
-      <workItem from="1658909811148" duration="3498000" />
+      <workItem from="1658909811148" duration="4707000" />
     </task>
     <task id="LOCAL-00001" summary="upd: exercise 1;">
       <created>1658497287507</created>
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658910995673</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="upd: useAsync;">
+      <created>1658931368390</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658931368390</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +172,8 @@
     <MESSAGE value="upd: exercise 3;" />
     <MESSAGE value="upd: wire up auth to the back-end;" />
     <MESSAGE value="upd: add token support;" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: add token support;" />
+    <MESSAGE value="upd: useAsync;" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: useAsync;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
