@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9713a1b-a7af-448a-8496-5fc24c9bd984" name="Changes" comment="upd: custom headers;">
+      <change beforePath="$PROJECT_DIR$/src/authenticated-app.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/authenticated-app.exercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/authenticated-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/authenticated-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/book.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/book.exercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/book.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/not-found.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/not-found.exercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/not-found.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/not-found.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="exercises/04-authentication" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CG8bGhvNLiAWtx8mXXj7j6dG5L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/red17electro/WebstormProjects/bookshelf/node_modules/eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/red17electro/WebstormProjects/bookshelf/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="" />
+      <created>1658417630306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658417630306</updated>
+      <workItem from="1658417631447" duration="10168000" />
+      <workItem from="1658501870751" duration="34079000" />
+      <workItem from="1658908415210" duration="977000" />
+      <workItem from="1658909411758" duration="393000" />
+      <workItem from="1658909811148" duration="4707000" />
+    </task>
+    <task id="LOCAL-00001" summary="upd: exercise 1;">
+      <created>1658497287507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658497287507</updated>
+    </task>
+    <task id="LOCAL-00002" summary="upd: exercise 1;">
+      <created>1658501776082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658501776082</updated>
+    </task>
+    <task id="LOCAL-00003" summary="upd: exercise 2, initial;">
+      <created>1658767391582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658767391582</updated>
+    </task>
+    <task id="LOCAL-00004" summary="upd: exercise 2, styled components;">
+      <created>1658786566732</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658786566732</updated>
+    </task>
+    <task id="LOCAL-00005" summary="upd: exercise 2, styled components;">
+      <created>1658827342721</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658827342721</updated>
+    </task>
+    <task id="LOCAL-00006" summary="upd: exercise 1, fetching data;">
+      <created>1658839864102</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658839864102</updated>
+    </task>
+    <task id="LOCAL-00007" summary="upd: exercise 1, additional;">
+      <created>1658840303881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658840303881</updated>
+    </task>
+    <task id="LOCAL-00008" summary="upd: exercise 1, additional;">
+      <created>1658840926989</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658840926989</updated>
+    </task>
+    <task id="LOCAL-00009" summary="upd: exercise 3;">
+      <created>1658842969535</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658842969535</updated>
+    </task>
+    <task id="LOCAL-00010" summary="upd: wire up auth to the back-end;">
+      <created>1658849392238</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658849392238</updated>
+    </task>
+    <task id="LOCAL-00011" summary="upd: add token support;">
+      <created>1658910995673</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658910995673</updated>
+    </task>
+    <task id="LOCAL-00012" summary="upd: useAsync;">
+      <created>1658931368390</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658931368390</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upd: exercise 1;" />
+    <MESSAGE value="upd: exercise 2, initial;" />
+    <MESSAGE value="upd: exercise 2, styled components;" />
+    <MESSAGE value="upd: exercise 1, fetching data;" />
+    <MESSAGE value="upd: exercise 1, additional;" />
+    <MESSAGE value="upd: exercise 3;" />
+    <MESSAGE value="upd: wire up auth to the back-end;" />
+    <MESSAGE value="upd: add token support;" />
+    <MESSAGE value="upd: useAsync;" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: useAsync;" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
