@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9713a1b-a7af-448a-8496-5fc24c9bd984" name="Changes" comment="upd: routing exercise;">
-      <change beforePath="$PROJECT_DIR$/src/app.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+    <list default="true" id="c9713a1b-a7af-448a-8496-5fc24c9bd984" name="Changes" comment="upd: solution;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/book-row.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-row.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/book-row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-row.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/list-item-list.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list-item-list.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list-item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list-item-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/rating.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rating.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/rating.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rating.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/status-buttons.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/status-buttons.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/status-buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/status-buttons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/book.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/book.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/book.extra-1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/book.extra-1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/book.extra-3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/book.extra-3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/book.extra-4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/book.extra-4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/book.final.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/book.final.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/book.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/book.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/discover.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/discover.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/discover.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/discover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/api-client.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api-client.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/api-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/books.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/books.exercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/list-items.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/list-items.exercise.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658995231119</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="upd: solution;">
+      <created>1659017938852</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017938852</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +210,8 @@
     <MESSAGE value="upd: useAsync;" />
     <MESSAGE value="upd: exercise;" />
     <MESSAGE value="upd: routing exercise;" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: routing exercise;" />
+    <MESSAGE value="upd: solution;" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: solution;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

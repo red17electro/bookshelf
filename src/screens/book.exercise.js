@@ -6,7 +6,7 @@ import debounceFn from 'debounce-fn'
 import {FaRegCalendarAlt} from 'react-icons/fa'
 import Tooltip from '@reach/tooltip'
 import {useParams} from 'react-router-dom'
-import {useQuery, useMutation, queryCache} from 'react-query'
+import {useMutation, queryCache} from 'react-query'
 import {client} from 'utils/api-client'
 import {formatDate} from 'utils/misc'
 import * as mq from 'styles/media-queries'
@@ -14,34 +14,13 @@ import * as colors from 'styles/colors'
 import {Textarea} from 'components/lib'
 import {Rating} from 'components/rating'
 import {StatusButtons} from 'components/status-buttons'
-import bookPlaceholderSvg from 'assets/book-placeholder.svg'
-
-const loadingBook = {
-  title: 'Loading...',
-  author: 'loading...',
-  coverImageUrl: bookPlaceholderSvg,
-  publisher: 'Loading Publishing',
-  synopsis: 'Loading...',
-  loadingBook: true,
-}
+import {useBook} from '../utils/books'
+import {useListItem} from '../utils/list-items.exercise'
 
 function BookScreen({user}) {
   const {bookId} = useParams()
-
-  const {data: book = loadingBook} = useQuery({
-    queryKey: ['book', {bookId}],
-    queryFn: () =>
-      client(`books/${bookId}`, {token: user.token}).then(data => data.book),
-  })
-
-  const {data: listItems} = useQuery({
-    queryKey: ['list-items'],
-    queryFn: () =>
-      client(`list-items`, {token: user.token}).then(data => data.listItems),
-  })
-
-  const listItem = listItems?.data.find(item => item.bookId === book.id) ?? null
-
+  const book = useBook(bookId, user)
+  const listItem = useListItem(book.id, user)
   const {title, author, coverImageUrl, publisher, synopsis} = book
 
   return (
@@ -171,4 +150,4 @@ function NotesTextarea({listItem, user}) {
   )
 }
 
-export {BookScreen}
+export {BookScreen, useBook}
