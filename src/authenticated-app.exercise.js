@@ -9,6 +9,7 @@ import * as colors from './styles/colors'
 import {DiscoverBooksScreen} from './screens/discover'
 import {BookScreen} from './screens/book'
 import {NotFoundScreen} from './screens/not-found'
+import {useMatch} from 'react-router'
 
 function AuthenticatedApp({user, logout}) {
   return (
@@ -54,27 +55,40 @@ function AuthenticatedApp({user, logout}) {
   )
 }
 
-function NavLink(props) {
-  return (
-    <Link
-      css={{
-        display: 'block',
-        padding: '8px 15px 8px 10px',
-        margin: '5px 0',
-        width: '100%',
-        height: '100%',
-        color: colors.text,
-        borderRadius: '2px',
-        borderLeft: '5px solid transparent',
+function NavLink({to, ...props}) {
+  const matches = useMatch(to)
+  let styles = [
+    {
+      display: 'block',
+      padding: '8px 15px 8px 10px',
+      margin: '5px 0',
+      width: '100%',
+      height: '100%',
+      color: colors.text,
+      borderRadius: '2px',
+      borderLeft: '5px solid transparent',
+      ':hover': {
+        color: colors.indigo,
+        textDecoration: 'none',
+        background: colors.gray10,
+      },
+    },
+  ]
+
+  if (matches) {
+    styles = [
+      ...styles,
+      {
+        borderLeft: `5px solid ${colors.indigo}`,
+        background: colors.gray10,
         ':hover': {
-          color: colors.indigo,
-          textDecoration: 'none',
-          background: colors.gray10,
+          background: colors.gray20,
         },
-      }}
-      {...props}
-    />
-  )
+      },
+    ]
+  }
+
+  return <Link css={styles} to={to} {...props} />
 }
 
 function Nav() {
