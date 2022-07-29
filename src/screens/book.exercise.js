@@ -11,11 +11,12 @@ import {client} from 'utils/api-client'
 import {formatDate} from 'utils/misc'
 import * as mq from 'styles/media-queries'
 import * as colors from 'styles/colors'
-import {Textarea} from 'components/lib'
+import {Spinner, Textarea} from 'components/lib'
 import {Rating} from 'components/rating'
 import {StatusButtons} from 'components/status-buttons'
 import {useBook} from '../utils/books'
 import {useListItem} from '../utils/list-items.exercise'
+import {ErrorMessage} from 'components/lib'
 
 function BookScreen({user}) {
   const {bookId} = useParams()
@@ -103,7 +104,7 @@ function ListItemTimeframe({listItem}) {
 }
 
 function NotesTextarea({listItem, user}) {
-  const [mutate] = useMutation(
+  const [mutate, {error, isError, isLoading}] = useMutation(
     updates =>
       client(`list-items/${updates.id}`, {
         method: 'PUT',
@@ -139,13 +140,24 @@ function NotesTextarea({listItem, user}) {
         >
           Notes
         </label>
+        {isError ? (
+          <ErrorMessage
+            error={error}
+            variant="inline"
+            css={{marginLeft: 6, fontSize: '0.7em'}}
+          />
+        ) : null}
       </div>
-      <Textarea
-        id="notes"
-        defaultValue={listItem.notes}
-        onChange={handleNotesChange}
-        css={{width: '100%', minHeight: 300}}
-      />
+      {isLoading ? (
+        <Spinner />
+      ) : (
+        <Textarea
+          id="notes"
+          defaultValue={listItem.notes}
+          onChange={handleNotesChange}
+          css={{width: '100%', minHeight: 300}}
+        />
+      )}
     </React.Fragment>
   )
 }
