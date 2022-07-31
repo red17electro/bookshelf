@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9713a1b-a7af-448a-8496-5fc24c9bd984" name="Changes" comment="upd: react query custom hooks;">
+    <list default="true" id="c9713a1b-a7af-448a-8496-5fc24c9bd984" name="Changes" comment="upd: prefetch the book search query;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/rating.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rating.exercise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/status-buttons.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/status-buttons.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/book.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/book.exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/discover.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/discover.exercise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/books.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/books.exercise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/list-items.exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/list-items.exercise.js" afterDir="false" />
     </list>
@@ -54,7 +50,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf8bfa4e-86d4-4bf0-8396-8e5420373752" name="Changes" comment="" />
+      <changelist id="c9713a1b-a7af-448a-8496-5fc24c9bd984" name="Changes" comment="upd: prefetch the book search query;" />
       <created>1658417630306</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -64,6 +60,7 @@
       <workItem from="1658908415210" duration="977000" />
       <workItem from="1658909411758" duration="393000" />
       <workItem from="1658909811148" duration="4707000" />
+      <workItem from="1659262254568" duration="3619000" />
     </task>
     <task id="LOCAL-00001" summary="upd: exercise 1;">
       <created>1658497287507</created>
@@ -184,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659046384285</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="upd: prefetch the book search query;">
+      <created>1659100884807</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659100884807</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +222,8 @@
     <MESSAGE value="upd: routing exercise;" />
     <MESSAGE value="upd: solution;" />
     <MESSAGE value="upd: react query custom hooks;" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: react query custom hooks;" />
+    <MESSAGE value="upd: prefetch the book search query;" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: prefetch the book search query;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

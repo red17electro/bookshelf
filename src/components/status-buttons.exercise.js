@@ -57,7 +57,7 @@ function TooltipButton({label, highlight, onClick, icon, ...rest}) {
 
 function StatusButtons({user, book}) {
   const listItem = useListItem(book.id, user)
-  const update = useUpdateListItem(user, {throwOnError: true})
+  const [update] = useUpdateListItem(user, {throwOnError: true})
   const remove = useRemoveListItem(user, {throwOnError: true})
   const create = useCreateListItem(user, {throwOnError: true})
 

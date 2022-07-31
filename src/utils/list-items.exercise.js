@@ -1,8 +1,14 @@
 import {queryCache, useMutation, useQuery} from 'react-query'
 import {client} from './api-client.exercise'
+import {setQueryDataForBook} from './books.exercise'
 
 const defaultMutationOptions = {
   onSettled: () => queryCache.invalidateQueries('list-items'),
+  onError(err, variables, recover) {
+    if (typeof recover === 'function') {
+      recover()
+    }
+  },
 }
 
 const useCreateListItem = (user, ...props) => {
@@ -24,7 +30,7 @@ const useCreateListItem = (user, ...props) => {
 }
 
 const useUpdateListItem = (user, ...props) => {
-  const [update] = useMutation(
+  const result = useMutation(
     updates =>
       client(`list-items/${updates.id}`, {
         method: 'PUT',
@@ -32,12 +38,21 @@ const useUpdateListItem = (user, ...props) => {
         token: user.token,
       }),
     {
+      onMutate(newItem) {
+        const previousItems = queryCache.getQueryData('list-items')
+        queryCache.setQueryData('list-items', old => {
+          return old.map(item => {
+            return item.id === newItem.id ? {...item, ...newItem} : item
+          })
+        })
+        return () => queryCache.setQueryData('list-items', previousItems)
+      },
       ...defaultMutationOptions,
       ...props,
     },
   )
 
-  return update
+  return result
 }
 
 const useRemoveListItem = (user, ...props) => {
@@ -48,6 +63,13 @@ const useRemoveListItem = (user, ...props) => {
         token: user.token,
       }),
     {
+      onMutate(removedItem) {
+        const previousItems = queryCache.getQueryData('list-items')
+        queryCache.setQueryData('list-items', old => {
+          return old.filter(item => item.id !== removedItem.id)
+        })
+        return () => queryCache.setQueryData('list-items', previousItems)
+      },
       ...defaultMutationOptions,
       ...props,
     },
@@ -61,6 +83,13 @@ const useListItems = user => {
     queryKey: ['list-items'],
     queryFn: () =>
       client(`list-items`, {token: user.token}).then(data => data.listItems),
+    config: {
+      onSuccess(listItems) {
+        for (const listItem of listItems) {
+          setQueryDataForBook(listItem.book)
+        }
+      },
+    },
   })
 
   return listItems ?? []
